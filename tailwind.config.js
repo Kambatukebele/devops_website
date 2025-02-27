@@ -8,6 +8,9 @@ export default {
         SpaceGrotesk: ["Space Grotesk", "sans-serif"],
       },
     },
+    container: {
+      center: true,
+    },
   },
   plugins: [],
 };

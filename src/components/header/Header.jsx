@@ -13,7 +13,7 @@ const Header = () => {
   };
   return (
     <header className="w-full h-fit py-4 border relative">
-      <div className="container px-4 lg:px-0 lg:flex lg:justify-between lg:items-center">
+      <div className="container px-4 lg:flex lg:justify-between lg:items-center">
         <div className="flex justify-between items-center">
           <Logo logo={logo} />
           <div className="flex justify-center items-center lg:hidden">

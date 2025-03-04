@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         Kanit: ["Kanit", "sans-serif"],
         SpaceGrotesk: ["Space Grotesk", "sans-serif"],
+        beatrice: ["Beatrice Trial", "sans-serif"],
       },
     },
     container: {

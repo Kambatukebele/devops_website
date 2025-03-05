@@ -18,13 +18,13 @@ const Hero = () => {
         <div className="flex flex-col gap-4 justify-center items-center sm:items-start lg:w-3/4 lg:gap-6">
           <div>
             <h1 className="text-4xl text-gray-900 font-bold leading-10 font-beatrice sm:w-[450px] md:w-[600px] md:text-5xl lg:w-full  lg:text-6xl lg:leading-tight 2xl:text-8xl">
-              Grow your company with our corporate agency
+              DevOps Consulting Services
             </h1>
           </div>
           <div className="sm:w-96 md:w-[600px] ml-auto">
             <p className="text-base font-normal text-gray-800 md:text-xl lg:text-2xl">
-              Arolax is a beacon of best innovation and the dynamic parent a
-              company of wealcoder and many other subsidiaries.
+              Solve any non-trivial challenge with DevOps consulting services
+              that treat your delivery pipeline like a product.
             </p>
           </div>
         </div>

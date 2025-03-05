@@ -1,7 +1,7 @@
 const List = ({ title }) => {
   return (
-    <li className="text-base">
-      <a className="text-gray-950" href="#">
+    <li className="text-base font-normal capitalize">
+      <a className="text-blue-950" href="#">
         {title}
       </a>
     </li>

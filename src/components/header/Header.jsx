@@ -12,7 +12,7 @@ const Header = () => {
     setHandleNavOnSmallDevice(!handleNavOnSmallDevice);
   };
   return (
-    <header className="w-full h-fit py-4 border relative">
+    <header className="w-full h-fit py-4 border-b border-b-blue-50 relative shadow-sm">
       <div className="container px-4 lg:flex lg:justify-between lg:items-center">
         <div className="flex justify-between items-center">
           <Logo logo={logo} />

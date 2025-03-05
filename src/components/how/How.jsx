@@ -50,16 +50,16 @@ const helpServices = [
 ];
 const How = () => {
   return (
-    <section className="w-full h-fit">
-      <div className="container px-4 mx-auto py-6 lg:py-12">
-        <div className="flex flex-col justify-center items-start gap-4 py-6 lg:flex-row mb-6 lg:mb-12">
+    <section className="w-full bg-blue-50 h-fit py-8 lg:py-16">
+      <div className="container px-4 mx-auto flex flex-col justify-start items-start gap-8 lg:gap-32 lg:items-center">
+        <div className="flex flex-col justify-center items-start gap-4 w-full lg:flex-row">
           <div className="lg:w-1/2">
-            <h2 className="font-beatrice text-4xl font-semibold text-gray-900 md:text-5xl lg:text-6xl">
-              What can we help with?
+            <h2 className="text-4xl font-bold text-blue-900 md:text-5xl lg:text-6xl">
+              What can we <br /> help with?
             </h2>
           </div>
           <div className="lg:w-1/2">
-            <p className="font-Kanit text-base font-normal text-gray-700 lg:w-[450px] lg:ml-auto">
+            <p className="text-base font-normal text-gray-800 lg:w-[450px] lg:ml-auto">
               Since 2009, our DevOps consulting company worked with enterprises
               and scale-ups. Our engineers gained expertise on a variety of
               technologies, serveless, K8s, and on-prem deployment on 170+
@@ -75,10 +75,10 @@ const How = () => {
                 key={id}
                 className="flex flex-col justify-start items-start gap-6 border py-4 px-6 hover:shadow-lg duration-300 ease-in-out rounded-lg lg:py-5"
               >
-                <h3 className="font-beatrice text-2xl font-semibold text-gray-900">
+                <h3 className="text-2xl font-semibold text-blue-900">
                   {title}
                 </h3>
-                <p className="font-Kanit font-light text-base md:text-lg">
+                <p className="font-normal text-gray-800 text-base md:text-lg">
                   {description}
                 </p>
               </div>

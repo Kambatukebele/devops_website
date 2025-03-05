@@ -4,9 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Kanit: ["Kanit", "sans-serif"],
-        SpaceGrotesk: ["Space Grotesk", "sans-serif"],
-        beatrice: ["Beatrice Trial", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
     },
     container: {

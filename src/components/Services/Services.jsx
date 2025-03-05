@@ -8,13 +8,13 @@ const services = [
   {
     id: 1,
     icon: iconServiceOne,
-    servicesName: "Interaction Design",
+    servicesName: "Datacenter Infrastructure Field Support",
     serviceDetails: [
-      "User interface",
-      "User experience",
-      "Design System",
-      "wireframe",
-      "prototype",
+      "Servers",
+      "Firewalls",
+      "Routers",
+      "Switches",
+      "Rack and Cabling",
     ],
   },
   {

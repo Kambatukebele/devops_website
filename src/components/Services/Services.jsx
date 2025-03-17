@@ -1,13 +1,8 @@
 import ServiceCard from "./ServiceCard";
-import iconServiceOne from "../../assets/icons/icon-service-one.svg";
-import iconServiceTwo from "../../assets/icons/icon-service-two.svg";
-import iconServiceThree from "../../assets/icons/icon-service-three.svg";
-import iconServiceFour from "../../assets/icons/icon-service-four.svg";
 
 const services = [
   {
     id: 1,
-    icon: iconServiceOne,
     servicesName: "DevOps automation",
     serviceDetails: [
       "Infrastructure as Code",
@@ -20,7 +15,6 @@ const services = [
   },
   {
     id: 2,
-    icon: iconServiceTwo,
     servicesName: "Audit and consulting",
     serviceDetails: [
       "Aws consulting",
@@ -33,7 +27,6 @@ const services = [
   },
   {
     id: 3,
-    icon: iconServiceThree,
     servicesName: "Cloud migration",
     serviceDetails: [
       "Legacy application migration",
@@ -46,7 +39,6 @@ const services = [
   },
   {
     id: 4,
-    icon: iconServiceFour,
     servicesName: "Logs management, monitoring, and alerting",
     serviceDetails: [
       "Logs collection, parsing, and transformation",
@@ -57,7 +49,6 @@ const services = [
   },
   {
     id: 5,
-    icon: iconServiceFour,
     servicesName: "Deployment of large-scale K8s clusters",
     serviceDetails: [
       "Faster development with standard Terraform project structure",
@@ -69,7 +60,6 @@ const services = [
   },
   {
     id: 6,
-    icon: iconServiceFour,
     servicesName: "Migration to GitLab for easy compliance",
     serviceDetails: [
       "Easy on-premise GitLab deployment",
@@ -80,7 +70,6 @@ const services = [
   },
   {
     id: 7,
-    icon: iconServiceFour,
     servicesName: "Cloud cost optimization",
     serviceDetails: [
       "Cloud infrastructure audit",
@@ -96,7 +85,7 @@ const Services = () => {
       <div className="container px-4 mx-auto flex flex-col justify-start items-start gap-8 lg:gap-32 lg:items-center">
         <div className="flex flex-col justify-center items-start gap-4 w-full lg:flex-row">
           <div className="lg:w-1/2">
-            <h2 className="text-4xl font-bold text-blue-900 md:text-5xl lg:text-6xl">
+            <h2 className="text-4xl font-extrabold text-blue md:text-5xl lg:text-6xl">
               Our exclusive <br /> services
             </h2>
           </div>
@@ -109,16 +98,8 @@ const Services = () => {
           </div>
         </div>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:place-content-center lg:grid-cols-4">
-          {services.map((service) => {
-            const { id, icon, servicesName, serviceDetails } = service;
-            return (
-              <ServiceCard
-                key={id}
-                icon={icon}
-                servicesName={servicesName}
-                serviceDetails={serviceDetails}
-              />
-            );
+          {services.map((service, index) => {
+            return <ServiceCard key={service.id} index={index} {...service} />;
           })}
         </div>
       </div>

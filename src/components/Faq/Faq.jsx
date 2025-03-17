@@ -74,7 +74,7 @@ const Faq = () => {
     <section className="w-full bg-white h-fit py-8 lg:py-16">
       <div className="container px-4 mx-auto flex flex-col justify-start items-start gap-8 lg:gap-32 lg:items-center">
         <div>
-          <h2 className="text-4xl font-bold text-blue-900 md:text-5xl lg:text-6xl lg:text-center">
+          <h2 className="text-4xl font-extrabold text-blue md:text-5xl lg:text-6xl lg:text-center">
             Frequently Asked <br /> Questions
           </h2>
         </div>
@@ -84,17 +84,17 @@ const Faq = () => {
             return (
               <div
                 key={id}
-                className="w-full flex flex-col justify-start items-start gap-4"
+                className="w-full flex flex-col justify-start items-start gap-4 relative"
               >
                 <div className="flex justify-between items-center w-full">
-                  <h4 className="text-base sm:text-2xl font-semibold text-blue-900">
+                  <h4 className="text-base sm:text-xl font-semibold text-gray-900">
                     {question}
                   </h4>
                   <div
                     onClick={() => {
                       toggleFunc(index);
                     }}
-                    className="w-8 h-8 flex justify-center items-center bg-blue-900 rounded-full text-white shrink-0"
+                    className="w-8 h-8 flex justify-center items-center  bg-blue rounded-full text-white shrink-0"
                   >
                     <img
                       className={`cursor-pointer ${
@@ -108,8 +108,10 @@ const Faq = () => {
                   </div>
                 </div>
                 <div
-                  className={`text-gray-900 font-normal text-base duration-500 ease-in-out ${
-                    toggleFaq === index ? "block" : "hidden"
+                  className={`text-gray-900 font-normal text-base duration-300 ease-in-out ${
+                    toggleFaq === index
+                      ? "h-32 overflow-visible"
+                      : "h-0 overflow-hidden"
                   }`}
                 >
                   {response}

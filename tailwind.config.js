@@ -6,6 +6,10 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      colors: {
+        blue: "#045AC3",
+        light_blue: "#D6E1F5",
+      },
     },
     container: {
       center: true,

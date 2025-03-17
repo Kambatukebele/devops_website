@@ -1,16 +1,17 @@
-const ServiceCard = ({ id, icon, servicesName, serviceDetails }) => {
+const ServiceCard = ({ servicesName, serviceDetails, index }) => {
   return (
-    <div className="flex border px-8 py-4 rounded-md shadow flex-col justify-start items-start gap-4 border-r border-r-gray-200">
-      <div>
-        <img src={icon} alt={servicesName} />
-      </div>
-      <h3 className="text-2xl font-semibold text-blue-900">{servicesName}</h3>
+    <div
+      className={`${
+        index == 0 ? "bg-blue text-white" : "bg-white"
+      } flex border px-8 py-8 rounded-md shadow flex-col justify-start items-start gap-5 border-r border-r-gray-200 duration-300 hover:bg-blue hover:text-white transition-all ease-in-out`}
+    >
+      <h3 className="text-2xl font-semibold">{servicesName}</h3>
       <ul className="flex flex-col gap-2 justify-center font-light items-start">
         {serviceDetails.map((details, index) => {
           return (
             <li
               key={index}
-              className="text-base text-gray-800 font-normal list-disc list-inside"
+              className="text-base font-normal list-disc list-inside"
             >
               {details}
             </li>

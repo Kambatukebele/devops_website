@@ -14,7 +14,7 @@ const Navigation = ({ handleNavOnSmallDevice }) => {
         <List title="Faq" />
         <List title="Contact us" />
         <a
-          className="block bg-blue-800 rounded-md text-white px-6 py-3 w-52 text-base normal-case cursor-pointer sm:w-80 text-center"
+          className="block bg-blue rounded-md text-white px-6 py-3 w-52 text-base normal-case cursor-pointer sm:w-80 text-center"
           href="#"
         >
           Get a 30 minute free consultation

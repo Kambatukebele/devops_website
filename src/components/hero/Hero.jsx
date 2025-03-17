@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-col gap-4 justify-center items-center sm:items-start lg:w-3/4 lg:gap-6">
           <div>
-            <h1 className="text-4xl text-blue-900 font-bold leading-10 sm:w-[450px] md:w-[600px] md:text-5xl lg:w-full  lg:text-6xl lg:leading-tight 2xl:text-8xl">
+            <h1 className="text-4xl text-blue font-bold leading-10 sm:w-[450px] md:w-[600px] md:text-5xl lg:w-full  lg:text-6xl lg:leading-tight 2xl:text-8xl">
               DevOps Consulting Services
             </h1>
           </div>

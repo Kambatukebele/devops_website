@@ -1,9 +1,9 @@
 import image from "../../assets/images/devops.jpeg";
 const SectionImage = () => {
   return (
-    <section className="w-full h-full md:h-[400px] lg:h-[500px]">
+    <section className="container px-4 rounded-2xl h-full md:h-[400px] lg:h-[600px]">
       <img
-        className="w-full h-full block object-cover object-center"
+        className="w-full h-full block object-cover object-center rounded-xl"
         src={image}
         alt="image"
       />

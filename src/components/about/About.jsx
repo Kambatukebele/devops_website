@@ -1,18 +1,18 @@
 const About = () => {
   return (
-    <section className="w-full bg-white h-fit py-8 lg:py-16">
+    <section id="about" className="w-full bg-white h-fit py-8 lg:py-16">
       <div className="container px-4 mx-auto">
         <div>
-          <h3 className="text-xl text-gray-900 leading-loose font-light sm:text-3xl sm:leading-normal lg:leading-[50px]">
-            <span className="px-2 bg-blue text-white">We are qubitz</span>, a
-            passionate team of DevOps experts with years of industry experience.
-            Our mission is to{" "}
-            <span className="px-2 bg-blue text-white">help</span> businesses
-            streamline their development processes, modernize their
-            infrastructure, and achieve sustainable{" "}
-            <span className="px-2 bg-blue text-white">growth</span>. We partner
-            with you to bring clarity, efficiency, and innovation to your IT
-            operations.
+          <h3 className="text-xl text-gray-800 leading-loose font-normal sm:text-3xl sm:leading-normal lg:leading-[50px]">
+            Since 2018,
+            <span className="px-2 font-semibold">qubitz</span>, our DevOps
+            consulting firm has collaborated with enterprises and scale-ups,
+            providing expertise across
+            <span className="px-2 bg-blue-900 text-white">170+ projects</span>.
+            Our engineers excel in
+            <span className="px-2 font-semibold">serverless architectures</span>
+            ,<span className="px-2 font-semibold">Kubernetes</span>, and
+            <span className="px-2 font-semibold">on-premise deployments</span>.
           </h3>
         </div>
       </div>

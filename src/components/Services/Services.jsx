@@ -81,20 +81,20 @@ const services = [
 ];
 const Services = () => {
   return (
-    <section className="w-full h-fit bg-white py-8 lg:py-16">
+    <section id="services" className="w-full h-fit bg-white py-8 lg:py-16">
       <div className="container px-4 mx-auto flex flex-col justify-start items-start gap-8 lg:gap-32 lg:items-center">
         <div className="flex flex-col justify-center items-start gap-4 w-full lg:flex-row">
           <div className="lg:w-1/2">
-            <h2 className="text-4xl font-extrabold text-blue md:text-5xl lg:text-6xl">
-              Our exclusive <br /> services
+            <h2 className="text-4xl font-extrabold text-blue-950 md:text-5xl lg:text-6xl">
+              Our exclusive <br /> solutions
             </h2>
           </div>
           <div className="lg:w-1/2">
-            <p className="text-base font-normal text-gray-800 lg:w-[450px] lg:ml-auto">
+            {/* <p className="text-base font-normal text-gray-800 lg:w-[450px] lg:ml-auto">
               Whether it's Crafting a visually stunning brand identity,
               designing immersive digital experiences, or developing strategic
               marketing campaigns
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:place-content-center lg:grid-cols-4">

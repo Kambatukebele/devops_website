@@ -54,17 +54,14 @@ const How = () => {
       <div className="container px-4 mx-auto flex flex-col justify-start items-start gap-8 lg:gap-32 lg:items-center">
         <div className="flex flex-col justify-center items-start gap-4 w-full lg:flex-row">
           <div className="lg:w-1/2">
-            <h2 className="text-4xl font-extrabold text-blue md:text-5xl lg:text-6xl">
+            <h2 className="text-4xl font-extrabold text-blue-950 md:text-5xl lg:text-6xl">
               What can we <br /> help with?
             </h2>
           </div>
           <div className="lg:w-1/2">
-            <p className="text-base font-normal text-gray-800 lg:w-[450px] lg:ml-auto">
-              Since 2009, our DevOps consulting company worked with enterprises
-              and scale-ups. Our engineers gained expertise on a variety of
-              technologies, serveless, K8s, and on-prem deployment on 170+
-              projects.
-            </p>
+            {/* <p className="text-base font-normal text-gray-800 lg:w-[450px] lg:ml-auto">
+              
+            </p> */}
           </div>
         </div>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:place-content-center lg:grid-cols-3 xl:grid-cols-4">
@@ -74,8 +71,8 @@ const How = () => {
               <div
                 key={id}
                 className={`${
-                  index == 0 ? "bg-blue text-white" : "bg-white"
-                } flex flex-col justify-start items-start gap-6 border py-4 px-6 hover:shadow-lg duration-300 hover:bg-blue hover:text-white transition-all ease-in-out rounded-lg lg:py-5`}
+                  index == 0 ? "bg-blue-900 text-white" : "bg-white"
+                } flex flex-col justify-start items-start gap-6 border py-4 px-6 hover:shadow-lg duration-300 hover:bg-blue-900 hover:text-white transition-all ease-in-out rounded-lg lg:py-5`}
               >
                 <h3 className="text-2xl font-semibold">{title}</h3>
                 <p className="font-normal text-base md:text-lg">

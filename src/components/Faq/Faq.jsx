@@ -3,63 +3,58 @@ import chevron from "../../assets/icons/chevron.svg";
 const faqs = [
   {
     id: 1,
-    question: "What is the main goal of DevOps?",
+    question: "What is the cost of implementing DevSecOps?",
     response:
-      "The main reason organizations adopt DevOps is to deliver products and services to market faster. DevOps aims to streamline the entire development process and foster tighter collaboration between teams working on different stages of the product lifecycle. Companies frequently look to bring on an expert DevOps solutions partner to help them realize these benefits of faster delivery, more efficient processes, and closer cross-functional teamwork across the value stream. An experienced provider can guide organizations through transforming their culture, tools, and practices to embrace a DevOps methodology that improves speed, quality, and customer satisfaction.",
+      "The cost of implementing DevSecOps depends on several factors, including the size of your organization, the complexity of your applications, and the level of support you require. We offer customized solutions and can work within your budget to ensure you get the best value. Contact us for a consultation, and we’ll provide a tailored proposal.",
   },
   {
     id: 2,
-    question: "What are the main benefits companies see from adopting DevOps?",
+    question:
+      "Can you help us integrate DevSecOps into our existing workflows?",
     response:
-      "Adopting DevOps can provide many benefits including faster time-to-market for new features and releases, reduced errors and outages through continuous testing and monitoring, improved software quality and security through modern development practices, enhanced collaboration between cross-functional teams, and better customer satisfaction from rapid delivery of value.",
+      "Yes, we specialize in integrating DevSecOps into existing DevOps workflows, regardless of your current setup. We’ll assess your current processes, recommend improvements, and guide you through the integration of security tools, practices, and policies. Whether you’re starting from scratch or looking to enhance your current pipeline, we can help streamline the transition.",
   },
   {
     id: 3,
-    question: "What cultural changes involve DevOps?",
+    question: "How do you ensure compliance with security regulations?",
     response:
-      "To successfully adopt DevOps, organizations need cultural shifts away from siloed, legacy team structures towards collaboration, shared responsibilities and end-to-end ownership across the software delivery lifecycle. It involves instilling a culture of automation, continuous experimentation and learning powered by data-driven insights.",
+      "Our DevSecOps processes are designed to meet the requirements of various security regulations, such as:",
+    bullet_points: ["GDPR", "HIPAA", "SOC 2", "PCI DSS", " ISO/IEC 27001"],
+    extra_response:
+      "We perform regular audits, implement automated compliance checks, and provide reports to help you maintain and demonstrate compliance.",
   },
   {
     id: 4,
-    question: "What are common DevOps tools?",
+    question: "What are the benefits of adopting DevSecOps?",
     response:
-      "Typical DevOps tooling includes version control systems like Git for source code management, continuous integration/delivery (CI/CD) tools like Jenkins for automation, infrastructure as code tools like Terraform for provisioning, configuration management using Chef or Puppet, containers and orchestrators like Docker and Kubernetes, monitoring tools like Prometheus, and collaboration platforms like Slack.",
+      "Adopting DevSecOps provides several advantages:Improved Security: Integrates security early, reducing vulnerabilities and risks.Faster Development Cycles: Automates security testing within CI/CD pipelines, speeding up the development process. Better Compliance: Helps ensure your software meets compliance standards like:",
+    bullet_points: ["GDPR", "HIPAA", "SOC2"],
+    extra_response:
+      "Cost Reduction: Identifies and fixes security issues early, reducing the cost of addressing vulnerabilities later in the lifecycle.Collaboration: Encourages better collaboration between development, security, and operations teams.",
   },
   {
     id: 5,
-    question: "How to measure DevOps ROI?",
+    question:
+      "DevSecOps ensures that security is not an afterthought, but an integral part of development from the start. By incorporating security into every stage of software development, your organization can:",
     response:
-      "DevOps return on investment can be measured through metrics like lead time from code commit to production, deployment frequency, time to restore service after incidents, and change failure rate. Other indicators include productivity metrics like features delivered, faster innovation, improved customer retention from reliable updates.",
+      "Reduce vulnerabilities and security risks.Improve compliance with industry regulations. Increase operational efficiency. Enable faster releases with less security debt. Promote a proactive security culture across the development team.",
   },
   {
     id: 6,
-    question: "Do you need to rearchitect for DevOps?",
+    question: "What is DevSecOps?",
     response:
-      "Transitioning legacy applications to cloud-native architectures provides the most agility. But adopting DevOps can also be done incrementally with existing systems through “strangling” monoliths. However, organizations may eventually replatform on containers and microservices to fully optimize workflows.",
+      "DevSecOps stands for Development, Security, and Operations. It’s an approach that integrates security practices directly into the DevOps process, ensuring security is prioritized at every stage of the software development lifecycle. By automating security testing and ensuring security is part of the continuous integration/continuous deployment (CI/CD) pipeline, DevSecOps allows teams to deliver secure software faster and more efficiently.",
   },
   {
     id: 7,
-    question: "How long are DevOps implementations?",
+    question: "How does DevSecOps differ from traditional security practices?",
     response:
-      "There is no fixed duration for adopting DevOps since it is an evolving cultural and technological transition. Transformations can take months or years of gradual, continuous improvement. Avoid big bang deployments in favor of incrementally automating processes one step at a time.",
-  },
-  {
-    id: 8,
-    question: "How long are DevOps implementations?",
-    response:
-      "There is no fixed duration for adopting DevOps since it is an evolving cultural and technological transition. Transformations can take months or years of gradual, continuous improvement. Avoid big bang deployments in favor of incrementally automating processes one step at a time.",
-  },
-  {
-    id: 9,
-    question: "What are typical DevOps engineer responsibilities?",
-    response:
-      "DevOps engineers are responsible for creating automated workflows and CI/CD pipelines, building and managing infrastructure as code, configuring and integrating development, testing, and production environments, implementing monitoring and observability, collaborating with developers and ops teams, and helping debug issues with rapid feedback",
-  },
-  {
-    id: 10,
-    question: "Why choose RTS Labs?",
-    response:
-      "At RTS Labs, we have over a decade of DevOps Excellence. When it comes to DevOps transformation, experience isn’t just a metric—it’s a promise of quality, reliability, and innovation. With over 10 years of industry-leading expertise, RTS Labs has been at the forefront of DevOps evolution. Our seasoned professionals have successfully navigated complex DevOps challenges across diverse industries, from healthcare and finance to technology and retail. But we don’t rest on our laurels; we continually invest in upskilling and R&D to ensure that you benefit from the latest advancements in DevOps methodologies and tools. Choose RTS Labs and align yourself with a partner who has a proven track record of delivering excellence.",
+      "Traditional security practices often focus on manual, post-development processes such as penetration testing and code reviews. In contrast, DevSecOps incorporates automated security into the continuous delivery pipeline, ensuring that security controls are continuously applied and validated from the start. Key differences include:",
+    bullet_points: [
+      "Shift Left: Security is addressed earlier in the development lifecycle rather than as a final step.",
+      "Automation: Security controls are automated through tooling, reducing human error and increasing efficiency.",
+      "Continuous Monitoring: Ongoing monitoring and vulnerability assessments ensure that security risks are identified in real time, even after deployment.",
+    ],
   },
 ];
 
@@ -71,30 +66,31 @@ const Faq = () => {
     setToggleFaq(toggleFaq === index ? null : index);
   };
   return (
-    <section className="w-full bg-white h-fit py-8 lg:py-16">
+    <section id="faq" className="w-full bg-white h-fit py-8 lg:py-16">
       <div className="container px-4 mx-auto flex flex-col justify-start items-start gap-8 lg:gap-32 lg:items-center">
         <div>
-          <h2 className="text-4xl font-extrabold text-blue md:text-5xl lg:text-6xl lg:text-center">
+          <h2 className="text-4xl font-extrabold text-blue-950 md:text-5xl lg:text-6xl lg:text-center">
             Frequently Asked <br /> Questions
           </h2>
         </div>
         <div className="w-full flex flex-col justify-start items-start gap-10">
           {faqs.map((faq, index) => {
-            const { id, question, response } = faq;
+            const { id, question, response, bullet_points, extra_response } =
+              faq;
             return (
               <div
                 key={id}
                 className="w-full flex flex-col justify-start items-start gap-4 relative"
               >
                 <div className="flex justify-between items-center w-full">
-                  <h4 className="text-base sm:text-xl font-semibold text-gray-900">
+                  <h4 className="text-base sm:text-xl font-semibold text-blue-950">
                     {question}
                   </h4>
                   <div
                     onClick={() => {
                       toggleFunc(index);
                     }}
-                    className="w-8 h-8 flex justify-center items-center  bg-blue rounded-full text-white shrink-0"
+                    className="w-8 h-8 flex justify-center items-center  bg-blue-950 rounded-full text-white shrink-0"
                   >
                     <img
                       className={`cursor-pointer ${
@@ -110,11 +106,19 @@ const Faq = () => {
                 <div
                   className={`text-gray-900 font-normal text-base duration-300 ease-in-out ${
                     toggleFaq === index
-                      ? "h-32 overflow-visible"
+                      ? "h-auto overflow-visible"
                       : "h-0 overflow-hidden"
                   }`}
                 >
                   {response}
+                  {bullet_points && (
+                    <ul className="my-5 list-disc list-inside">
+                      {bullet_points.map((point) => {
+                        return <li>{point}</li>;
+                      })}
+                    </ul>
+                  )}
+                  {extra_response && <p>{extra_response}</p>}
                 </div>
               </div>
             );

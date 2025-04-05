@@ -66,7 +66,7 @@ const Faq = () => {
     setToggleFaq(toggleFaq === index ? null : index);
   };
   return (
-    <section id="faq" className="w-full bg-white h-fit py-8 lg:py-16">
+    <section id="faq" className="w-full bg-white h-fit py-12 lg:py-24">
       <div className="container px-4 mx-auto flex flex-col justify-start items-start gap-8 lg:gap-32 lg:items-center">
         <div>
           <h2 className="text-4xl font-extrabold text-blue-950 md:text-5xl lg:text-6xl lg:text-center">

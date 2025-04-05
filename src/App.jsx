@@ -7,6 +7,7 @@ import TextImage from "./components/text-image/TextImage";
 import How from "./components/how/How";
 import Faq from "./components/Faq/Faq";
 import Footer from "./components/footer/Footer";
+import ContactUs from "./components/contact/ContactUs";
 // const otherServices = [
 //   {
 //     id: 1,
@@ -29,6 +30,7 @@ const App = () => {
       <How />
       <Services />
       <TextImage />
+      <ContactUs />
       <Faq />
       <Footer />
     </>

@@ -16,12 +16,18 @@ const Hero = () => {
               that treat your delivery pipeline like a product.
             </p>
           </div>
-          <div className="w-full sm:items-center sm:justify-center sm:flex">
+          <div className="w-full items-center justify-center flex flex-col gap-2 sm:flex-row">
             <a
-              className="block bg-blue-900 w-full rounded-md shadow-2xl text-white px-6 py-5 text-base normal-case cursor-pointer lg:text-lg sm:w-80 text-center hover:bg-blue-950 hover:text-white transition ease-out duration-300"
+              className="block bg-blue-900 w-full rounded-md shadow-2xl text-white px-6 py-3 text-base normal-case cursor-pointer lg:text-lg sm:w-60 text-center hover:bg-blue-950 hover:text-white transition ease-out duration-300"
               href="#"
             >
               Free consultation
+            </a>
+            <a
+              className="block bg-transparent border border-blue-950 w-full rounded-md  text-blue-950 px-6 py-3 text-base normal-case cursor-pointer lg:text-lg sm:w-60 text-center hover:bg-blue-950 hover:text-white transition ease-out duration-300"
+              href="#"
+            >
+              Contact us
             </a>
           </div>
         </div>

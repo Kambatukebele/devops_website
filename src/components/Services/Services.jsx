@@ -81,7 +81,7 @@ const services = [
 ];
 const Services = () => {
   return (
-    <section id="services" className="w-full h-fit bg-white py-8 lg:py-16">
+    <section id="services" className="w-full h-fit bg-white py-12 lg:py-24">
       <div className="container px-4 mx-auto flex flex-col justify-start items-start gap-8 lg:gap-32 lg:items-center">
         <div className="flex flex-col justify-center items-start gap-4 w-full lg:flex-row">
           <div className="lg:w-1/2">

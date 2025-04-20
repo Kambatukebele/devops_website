@@ -2,14 +2,14 @@ import compare from "../../assets/images/compare.webp";
 // the reverseRow is just to reverse the image and image position
 const TextImage = () => {
   return (
-    <section className="w-full h-full bg-blue-700 py-12 lg:py-24">
+    <section className="w-full h-full bg-blue_800 py-12 lg:py-24">
       <div className="container px-4 mx-auto flex flex-col justify-start items-start lg:items-center">
         <div className="flex flex-col justify-start items-start gap-6 lg:flex-row xl:items-center">
           <div className="w-full flex flex-col justify-center items-start gap-4 lg:w-1/2">
             <h2 className="text-3xl font-extrabold text-white text-blue md:text-4xl lg:text-5xl">
               Unlock the power of DevSecOps
             </h2>
-            <p className="text-base font-normal text-white md:text-lg">
+            <p className="text-base font-normal text-white md:text-lg 2xl:max-w-lg">
               Seamlessly embedding security within your DevOps pipeline from day
               one. By automating security at every stage, we accelerate
               development without compromising safety, ensuring continuous

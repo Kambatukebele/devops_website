@@ -1,4 +1,4 @@
-import image from "../../assets/images/devops.jpeg";
+import image from "../../assets/images/devops.jpg";
 const SectionImage = () => {
   return (
     <section className="container px-4 rounded-2xl h-full md:h-[400px] lg:h-[600px]">

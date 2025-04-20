@@ -66,10 +66,10 @@ const Faq = () => {
     setToggleFaq(toggleFaq === index ? null : index);
   };
   return (
-    <section id="faq" className="w-full bg-white h-fit py-12 lg:py-24">
+    <section id="faq" className="w-full bg-gray_100 h-fit py-12 lg:py-24">
       <div className="container px-4 mx-auto flex flex-col justify-start items-start gap-8 lg:gap-32 lg:items-center">
         <div>
-          <h2 className="text-4xl font-extrabold text-blue-950 md:text-5xl lg:text-6xl lg:text-center">
+          <h2 className="text-4xl font-extrabold text-gray-900 md:text-5xl lg:text-6xl lg:text-center">
             Frequently Asked <br /> Questions
           </h2>
         </div>
@@ -83,14 +83,14 @@ const Faq = () => {
                 className="w-full flex flex-col justify-start items-start gap-4 relative"
               >
                 <div className="flex justify-between items-center w-full">
-                  <h4 className="text-base sm:text-xl font-semibold text-blue-950">
+                  <h4 className="text-base sm:text-xl font-semibold text-gray-900 w-2/3">
                     {question}
                   </h4>
                   <div
                     onClick={() => {
                       toggleFunc(index);
                     }}
-                    className="w-8 h-8 flex justify-center items-center  bg-blue-950 rounded-full text-white shrink-0"
+                    className="w-8 h-8 flex justify-center items-center  bg-blue_600 rounded-full text-white shrink-0"
                   >
                     <img
                       className={`cursor-pointer ${
@@ -104,7 +104,7 @@ const Faq = () => {
                   </div>
                 </div>
                 <div
-                  className={`text-gray-900 font-normal text-base duration-300 ease-in-out ${
+                  className={`text-gray_900 w-2/3 font-normal text-base duration-300 ease-in-out ${
                     toggleFaq === index
                       ? "h-auto overflow-visible"
                       : "h-0 overflow-hidden"

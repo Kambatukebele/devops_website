@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        orbitron: ["Orbitron", "sans-serif"],
       },
       colors: {
         blue_100: "#f2f9ff",

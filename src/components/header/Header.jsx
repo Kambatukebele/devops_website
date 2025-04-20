@@ -14,7 +14,7 @@ const Header = () => {
     <header className="w-full h-fit py-4 relative shadow-sm">
       <div className="container px-4 lg:flex lg:justify-between lg:items-center">
         <div className="flex justify-between items-center">
-          <a className="text-xl font-medium text-gray-950" href="/">
+          <a className="text-xl font-semibold font-orbitron text-gray-950" href="/">
             qubitz
           </a>
           <div className="flex justify-center items-center lg:hidden">

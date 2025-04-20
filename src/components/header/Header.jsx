@@ -1,7 +1,6 @@
-import logo from "../../assets/images/logo.jpeg";
-import hamburger from "../../assets/icons/hamburger.svg";
-import close from "../../assets/icons/close.svg";
 import { useState } from "react";
+import close from "../../assets/icons/close.svg";
+import hamburger from "../../assets/icons/hamburger.svg";
 import ToggleMenuIcon from "./ToggleMenuIcon";
 // import Logo from "./Logo";
 import Navigation from "./Navigation";
@@ -12,10 +11,10 @@ const Header = () => {
     setHandleNavOnSmallDevice(!handleNavOnSmallDevice);
   };
   return (
-    <header className="w-full h-fit py-4 border-b border-b-blue-50 relative shadow-sm">
+    <header className="w-full h-fit py-4 relative shadow-sm">
       <div className="container px-4 lg:flex lg:justify-between lg:items-center">
         <div className="flex justify-between items-center">
-          <a className="text-xl font-medium" href="/">
+          <a className="text-xl font-medium text-gray-950" href="/">
             qubitz
           </a>
           <div className="flex justify-center items-center lg:hidden">

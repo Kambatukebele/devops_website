@@ -50,11 +50,11 @@ const helpServices = [
 ];
 const How = () => {
   return (
-    <section className="w-full bg-blue-50 h-fit py-12 lg:py-24">
+    <section className="w-full bg-gray_100 h-fit py-12 lg:py-24">
       <div className="container px-4 mx-auto flex flex-col justify-start items-start gap-8 lg:gap-32 lg:items-center">
         <div className="flex flex-col justify-center items-start gap-4 w-full lg:flex-row">
           <div className="lg:w-1/2">
-            <h2 className="text-4xl font-extrabold text-blue-950 md:text-5xl lg:text-6xl">
+            <h2 className="text-4xl font-extrabold text-gray_900 md:text-5xl lg:text-6xl">
               What can we <br /> help with?
             </h2>
           </div>
@@ -71,8 +71,8 @@ const How = () => {
               <div
                 key={id}
                 className={`${
-                  index == 0 ? "bg-blue-900 text-white" : "bg-white"
-                } flex flex-col justify-start items-start gap-6 border py-4 px-6 hover:shadow-lg duration-300 hover:bg-blue-900 hover:text-white transition-all ease-in-out rounded-lg lg:py-5`}
+                  index == 0 ? "bg-blue_600 text-white" : "bg-white"
+                } flex flex-col justify-start items-start gap-6 border py-4 px-6 hover:shadow-lg duration-300 hover:bg-blue_700 hover:text-white transition-all ease-in-out rounded-lg lg:py-5`}
               >
                 <h3 className="text-2xl font-semibold">{title}</h3>
                 <p className="font-normal text-base md:text-lg">

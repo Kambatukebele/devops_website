@@ -85,7 +85,7 @@ const Services = () => {
       <div className="container px-4 mx-auto flex flex-col justify-start items-start gap-8 lg:gap-32 lg:items-center">
         <div className="flex flex-col justify-center items-start gap-4 w-full lg:flex-row">
           <div className="lg:w-1/2">
-            <h2 className="text-4xl font-extrabold text-blue-950 md:text-5xl lg:text-6xl">
+            <h2 className="text-4xl font-extrabold text-gray_900 md:text-5xl lg:text-6xl">
               Our exclusive <br /> solutions
             </h2>
           </div>

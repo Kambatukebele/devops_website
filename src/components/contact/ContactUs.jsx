@@ -84,6 +84,12 @@ const ContactUs = () => {
               errors={state.errors}
             />
           </div>
+          <div className="w-full flex gap-4 justify-center items-start">
+            <input type="checkbox" name="checkbox"  className="w-7 h-7" required/>
+            <span className="text-sm font-normal text-gray_900">
+            By submitting this form I give my consent for qubitz to process my personal data pursuant to qubitz <a href="#" className="underline">Privacy</a> and <a href="#" className="underline">Cookies</a> Policy.*
+            </span>
+          </div>
           <div className="w-full flex flex-col justify-center items-start gap-5">
             <button
               type="submit"

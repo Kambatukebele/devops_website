@@ -1,4 +1,4 @@
-import Logo from "../../assets/images/logo.jpeg";
+import Logo from "../header/Logo";
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
@@ -6,9 +6,7 @@ const Footer = () => {
       <div class="mx-auto max-w-screen-xl">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
-            <a className="text-xl text-white font-medium" href="/">
-              qubitz
-            </a>
+            <Logo extraClass="text-white" />
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
@@ -76,7 +74,7 @@ const Footer = () => {
             © {year}{" "}
             <a href="" class="hover:underline block">
               qubitz™ All Rights Reserved.
-            </a>
+            </a><Logo extraClass="text-gray-950" />
             <a class="underline block" href="https://kambatukebele.com/">
               Build by Kamba Tukebele
             </a>

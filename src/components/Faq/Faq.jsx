@@ -104,10 +104,10 @@ const Faq = () => {
                   </div>
                 </div>
                 <div
-                  className={`text-gray_900 w-2/3 font-normal text-base duration-300 ease-in-out ${
+                  className={`text-gray_900 w-2/3 font-normal text-base duration-700 ease-in-out ${
                     toggleFaq === index
-                      ? "h-auto overflow-visible"
-                      : "h-0 overflow-hidden"
+                      ? "h-44 max-h-full opacity-100 mb-10"
+                      : "h-0 opacity-0"
                   }`}
                 >
                   {response}

@@ -3,6 +3,7 @@ import close from "../../assets/icons/close.svg";
 import hamburger from "../../assets/icons/hamburger.svg";
 import ToggleMenuIcon from "./ToggleMenuIcon";
 // import Logo from "./Logo";
+import Logo from "./Logo";
 import Navigation from "./Navigation";
 
 const Header = () => {
@@ -14,9 +15,7 @@ const Header = () => {
     <header className="w-full h-fit py-4 relative shadow-sm">
       <div className="container px-4 lg:flex lg:justify-between lg:items-center">
         <div className="flex justify-between items-center">
-          <a className="text-xl font-semibold font-orbitron text-gray-950" href="/">
-            qubitz
-          </a>
+          <Logo extraClass="text-gray-950" />
           <div className="flex justify-center items-center lg:hidden">
             <ToggleMenuIcon
               handleNavOnSmallDevice={handleNavOnSmallDevice}

@@ -15,14 +15,14 @@ const Footer = () => {
               </h2>
               <ul class="text-gray-600 dark:text-gray-400">
                 <li class="mb-4">
-                  <a href="https://flowbite.com" class="hover:underline">
+                  <span class="hover:underline">
                     info@qubitz.com
-                  </a>
+                  </span>
                 </li>
                 <li>
-                  <a href="https://tailwindcss.com/" class="hover:underline">
+                  <span class="hover:underline">
                     +1 571 241 4118
-                  </a>
+                  </span>
                 </li>
               </ul>
             </div>
@@ -55,7 +55,7 @@ const Footer = () => {
               </h2>
               <ul class="text-gray-600 dark:text-gray-400">
                 <li class="mb-4">
-                  <a href="#" class="hover:underline">
+                  <a href="/privacy" class="hover:underline">
                     Privacy Policy
                   </a>
                 </li>

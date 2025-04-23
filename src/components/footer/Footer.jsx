@@ -16,12 +16,12 @@ const Footer = () => {
               <ul class="text-gray-600 dark:text-gray-400">
                 <li class="mb-4">
                   <a href="https://flowbite.com" class="hover:underline">
-                    info@test.com
+                    info@qubitz.com
                   </a>
                 </li>
                 <li>
                   <a href="https://tailwindcss.com/" class="hover:underline">
-                    +01 345 678 90
+                    +1 571 241 4118
                   </a>
                 </li>
               </ul>
@@ -33,10 +33,10 @@ const Footer = () => {
               <ul class="text-gray-600 dark:text-gray-400">
                 <li class="mb-4">
                   <a
-                    href="https://github.com/themesberg/flowbite"
+                    href="/"
                     class="hover:underline "
                   >
-                    Github
+                    X
                   </a>
                 </li>
                 <li>
@@ -44,7 +44,7 @@ const Footer = () => {
                     href="https://discord.gg/4eeurUVvTy"
                     class="hover:underline"
                   >
-                    Discord
+                    Linkedin
                   </a>
                 </li>
               </ul>

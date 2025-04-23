@@ -43,7 +43,7 @@ const faqs = [
     id: 6,
     question: "What is DevSecOps?",
     response:
-      "DevSecOps stands for Development, Security, and Operations. It’s an approach that integrates security practices directly into the DevOps process, ensuring security is prioritized at every stage of the software development lifecycle. By automating security testing and ensuring security is part of the continuous integration/continuous deployment (CI/CD) pipeline, DevSecOps allows teams to deliver secure software faster and more efficiently.",
+      "DevSecOps is a modern approach to software development that integrates security practices into every phase of the DevOps lifecycle. It ensures that security is a shared responsibility across development, operations, and security teams—rather than being an afterthought. By automating security checks, performing continuous monitoring, and embedding compliance into CI/CD pipelines, DevSecOps helps organizations build faster, safer, and more resilient applications.",
   },
   {
     id: 7,

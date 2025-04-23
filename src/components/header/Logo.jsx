@@ -2,7 +2,7 @@ import React from 'react'
 
 const Logo = ({extraClass}) => {
   return (
-    <a className={`text-xl font-semibold font-orbitron ${extraClass}`} href="/">
+    <a className={`text-2xl font-bold  ${extraClass}`} href="/">
         qubitz
     </a>
   )

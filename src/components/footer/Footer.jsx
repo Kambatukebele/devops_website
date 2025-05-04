@@ -60,8 +60,8 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="hover:underline">
-                    Terms &amp; Conditions
+                  <a href="/cookies" class="hover:underline">
+                    Cookie Policy
                   </a>
                 </li>
               </ul>
@@ -74,12 +74,9 @@ const Footer = () => {
             © {year}{" "}
             <a href="" class="hover:underline block">
               qubitz™ All Rights Reserved.
-            </a><Logo extraClass="text-gray-950" />
+            </a>
             <a class="underline block" href="https://kambatukebele.com/">
               Build by Kamba Tukebele
-            </a>
-            <a class="underline block" href="https://ezagrowllc.com/">
-              and Ezagrow Team
             </a>
           </span>
           <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0"></div>
